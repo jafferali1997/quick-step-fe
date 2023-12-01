@@ -1,0 +1,44 @@
+.default-input {
+  @apply tw-h-[40px] tw-w-full tw-rounded-[5px] !tw-border tw-border-text-ultra-light-gray !tw-bg-transparent tw-px-[16px] tw-py-[9px] tw-font-dm tw-text-text-dark-gray placeholder:!tw-p-0 placeholder:tw-text-text-ultra-light-gray before:tw-content-none after:tw-content-none;
+}
+.error-field {
+  @apply !tw-border-danger;
+}
+.disabled-input {
+  @apply tw-cursor-not-allowed tw-border-disabled-input tw-bg-disabled-input;
+}
+
+.MuiAutocomplete-root.MuiFormControl-root.MuiInputBase-root:focus {
+  border-color: #7e7d7d !important;
+}
+
+.MuiAutocomplete-root .MuiFormControl-root .MuiInputBase-root .MuiInputBase-input {
+  padding-left: 15px !important;
+}
+
+.input-field.Mui-focused {
+  border-color: #7e7d7d;
+}
+
+.error-field.Mui-focused {
+  border-color: #ef2020;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 40px !important;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline,
+textarea:focus {
+  border-color: var(--focus-input) !important;
+  border-width: 1px !important;
+}
+
+textarea:focus {
+  outline: none !important;
+}
+
+.MuiAutocomplete-root .MuiInputBase-root {
+  padding: 1px 10px;
+}
